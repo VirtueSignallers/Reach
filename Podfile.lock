@@ -1,0 +1,118 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Alamofire (3.4.1)
+  - ASHorizontalScrollView (1.2)
+  - Bolts (1.7.0):
+    - Bolts/AppLinks (= 1.7.0)
+    - Bolts/Tasks (= 1.7.0)
+  - Bolts/AppLinks (1.7.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.7.0)
+  - CNPPopupController (0.3.1)
+  - DateTools (1.7.0)
+  - DZNSegmentedControl (1.3.3)
+  - ESTabBarController (0.1.3)
+  - FBSDKCoreKit (4.12.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.12.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.12.0):
+    - FBSDKCoreKit
+  - GoogleMaps (1.13.2)
+  - HDAugmentedReality (1.0.1)
+  - HidingNavigationBar (0.3.0)
+  - ImageLoader (0.9.0)
+  - KMSegmentedControl (1.0.3)
+  - Parse (1.13.0):
+    - Bolts/Tasks (~> 1.6)
+  - ParseFacebookUtilsV4 (1.11.1):
+    - Bolts/Tasks (>= 1.6)
+    - FBSDKCoreKit (~> 4.10)
+    - FBSDKLoginKit (~> 4.10)
+    - FBSDKTVOSKit (~> 4.10)
+    - Parse (~> 1.12)
+  - ParseTwitterUtils (1.10.0):
+    - Bolts/Tasks (~> 1.5)
+    - Parse (~> 1.9)
+  - ParseUI (1.2.0):
+    - Bolts/Tasks (~> 1.3)
+    - Parse (~> 1.9)
+  - PeekPop (0.1.5)
+  - PrettyTimestamp (1.2.1)
+  - Twinkle (0.1.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Alamofire
+  - ASHorizontalScrollView (~> 1.2)
+  - CNPPopupController
+  - DateTools
+  - DZNSegmentedControl
+  - ESTabBarController
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - GoogleMaps
+  - HDAugmentedReality (from `https://github.com/DanijelHuis/HDAugmentedReality.git`)
+  - HidingNavigationBar (~> 0.3)
+  - ImageLoader
+  - KMSegmentedControl
+  - Parse
+  - ParseFacebookUtilsV4
+  - ParseTwitterUtils
+  - ParseUI
+  - PeekPop
+  - PrettyTimestamp
+  - Twinkle
+
+EXTERNAL SOURCES:
+  HDAugmentedReality:
+    :git: https://github.com/DanijelHuis/HDAugmentedReality.git
+
+CHECKOUT OPTIONS:
+  HDAugmentedReality:
+    :commit: 06fc2093160284e3a7b6c3c6585547dc6214340c
+    :git: https://github.com/DanijelHuis/HDAugmentedReality.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  ASHorizontalScrollView: 90287d2e6544cfc81d33f7bf91b6af85ec62f9a5
+  Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
+  CNPPopupController: 67dc2ca5a3f88cd49a27bb1b0aeb78a24d423d79
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  DZNSegmentedControl: ecc2f31c5581cce10c4d766ea4bd2d0781814c1f
+  ESTabBarController: f08fa16b154cfb9d8d42096f7d6d10b58775dbf5
+  FBSDKCoreKit: 6e56d5a2a64a755ad4efb5dbeee8f82fb1b99775
+  FBSDKLoginKit: 03f68a8d48c2c8bb81d7eb8097973d483543e1f6
+  FBSDKShareKit: df1491f064cffc8ebcc3fc8b71be94cc190c728e
+  GoogleMaps: b20a103ff307f58392e603cf142e59d7e30374c1
+  HDAugmentedReality: aa514e9cebb52e16c8d29170830f098a094fd2b7
+  HidingNavigationBar: 6378af14cea27bfef8be73470b081a36d45b87c4
+  ImageLoader: bb709e5b2708158da405760f42c75e7e52b561b5
+  KMSegmentedControl: 6794b469e0c2b5e5d587726d2697b54d77154780
+  Parse: f51c24d2feb412e4b2d6cc73d37cb24e8d0089bc
+  ParseFacebookUtilsV4: 2f30c2b7021c8005d3042781da7ef87d06589421
+  ParseTwitterUtils: 8856ac80da50bbb0f0bcf251def20b62e1ae6bc4
+  ParseUI: af2eba584799da4a9fbdac0e178662d7438b502e
+  PeekPop: 9a6b77f3af1d634878ef143790782ef5a78aa34a
+  PrettyTimestamp: e355b8abd6ea1d697cfa8c8d60b4133b08beaf43
+  Twinkle: 48e961d86c6c9766a96fc02e5bd19d065b608813
+
+PODFILE CHECKSUM: 3330d1a60ef1c443349d55119a3b913abf4b8246
+
+COCOAPODS: 1.0.1
